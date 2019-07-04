@@ -1,19 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
+import lxml
 
 url = 'http://iogames.fun'
 res = requests.get(url)
-# print (res.text)
-
 soup = BeautifulSoup(res.text, 'lxml')
 # print (soup.prettify())
 
-tiles = soup.find_all('div', class_='tiles')
-links = []
-for tile in tiles:
-    for a in tile.find_all('a', class_='tiles-item'):
-        links.append(a['href'])
-
+links = soup.find_all("a", class_="tiles-item")
 for link in links:
-    print (url + link)
+    print(url + link["href"])
+
+""" You can also do this
+for link in soup.find_all("a", class_="tiles-item"):
+    print(url + link["href"])
+"""
 
