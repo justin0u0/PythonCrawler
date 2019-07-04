@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import lxml
 
-url = 'http://iogames.fun'
+url = "http://iogames.fun"
 res = requests.get(url)
-soup = BeautifulSoup(res.text, 'lxml')
+soup = BeautifulSoup(res.text, "lxml")
 # print (soup.prettify())
 
 links = soup.find_all("a", class_="tiles-item")
