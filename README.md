@@ -15,3 +15,4 @@ Git Clone this Repo
 ## 可以參考的資料
 - BeautifulSoup Doc. https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
 - Python Tutorial https://docs.python.org/3/tutorial/
+- Requests Doc. https://2.python-requests.org//zh_CN/latest/user/quickstart.html
