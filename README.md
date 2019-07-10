@@ -1,5 +1,10 @@
 # PythonCrawler
-tutorial for computer science camp python BeautifulSoup
+## 準備
+![](https://i.imgur.com/80yXjir.png)
+#### Tutorial for 2019 CS camp Python
+requests, bs4
+- lesson1: http://iogames.fun
+- lesson2: https://www.dcard.tw/f/pet
 
 ## 詳細版的投影片
 https://hackmd.io/@yUtZSa81QMCxPDa8MR_GjA/H1MhLsrqN
