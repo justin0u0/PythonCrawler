@@ -5,7 +5,8 @@ tutorial for computer science camp python BeautifulSoup
 https://hackmd.io/@yUtZSa81QMCxPDa8MR_GjA/H1MhLsrqN
 
 ## 上課用的簡報
-https://hackmd.io/@mei/S1UpIHPxr
+- 上課用投影片 https://hackmd.io/@mei/S1UpIHPxr
+- 詳細版 https://hackmd.io/@yUtZSa81QMCxPDa8MR_GjA/H1MhLsrqN
 
 ## 可以參考的資料
 - BeautifulSoup Doc. https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
