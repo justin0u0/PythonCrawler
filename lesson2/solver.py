@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
 def get_ip_list():
+    print("Getting ip list ...")
     ua = UserAgent()
     url = "https://www.xicidaili.com/"
     headers = {
@@ -21,6 +22,7 @@ def get_ip_list():
         except:
             pass
     # print(ips)
+    print("Done.")
     return ips
 
 import random
@@ -31,6 +33,7 @@ def get(url):
         proxy_list.append("http://" + ip)
     proxy_ip = random.choice(proxy_list)
     proxies = {"http": proxy_ip}
+    print("Proxy server: " + proxy_ip)
     ua = UserAgent()
     headers = {"User-Agent": ua.random}
     return requests.get(url, headers=headers, proxies=proxies)
