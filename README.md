@@ -28,5 +28,5 @@ After coding, press F5 or the green triangle on the top of spyder to run.
 - Requests Doc. https://2.python-requests.org//zh_CN/latest/user/quickstart.html
 
 ## 題問
-有任何問題都可以寄信到 [dancinglinkxalgorithm@gmail.com]
+有任何問題都可以寄信到 dancinglinkxalgorithm@gmail.com  
 標題註明 2019清大資工營 Python 課堂疑問
