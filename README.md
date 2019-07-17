@@ -4,10 +4,10 @@
 ## 準備
 Git Clone this Repo or Download this Repo as zip and extract
 ### Windows / OS X
-Go to https://www.anaconda.com/distribution/
-Download Python Version 3.7 64-Bit Graphical Installer
-Install
-After installation, you can press Windows-Key and search Spyder
+Go to https://www.anaconda.com/distribution/  
+Download Python Version 3.7 64-Bit Graphical Installer  
+Install  
+After installation, you can press Windows-Key and search Spyder  
 
 ## 講義
 - 上課用 https://hackmd.io/@mei/S1UpIHPxr
